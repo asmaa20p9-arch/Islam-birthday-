@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Islam Times — Birthday Edition</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700;800&display=swap');
+:root{--paper:#f1e7d1;--ink:#28231d;--muted:#74654e;--line:#8c7a5d}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:radial-gradient(ellipse at top,#655643,#211d19 78%);color:var(--ink);font-family:'Cairo',sans-serif;display:flex;align-items:center;justify-content:center;padding:22px}
+.wrap{width:min(920px,100%);text-align:center}
+.top{color:#f4e9d4;margin-bottom:15px}
+.top small{letter-spacing:3px;font-size:11px}
+.top h1{font:700 clamp(25px,5vw,43px) 'Amiri',serif;margin:3px 0}
+.top p{margin:0;color:#d5c6aa;font-size:13px}
+.book-area{perspective:1800px;max-width:760px;margin:auto}
+.book{position:relative;width:100%;min-height:590px;transform-style:preserve-3d}
+.page{position:absolute;inset:0;background:var(--paper);padding:clamp(22px,5vw,48px);border:1px solid #c8b895;box-shadow:0 18px 50px #0008;overflow:auto;opacity:0;pointer-events:none;transform:rotateY(-8deg) scale(.985);transform-origin:right center;transition:opacity .35s,transform .55s; background-image:repeating-linear-gradient(0deg,transparent 0 31px,#8c7a5d0b 32px)}
+.page.active{opacity:1;pointer-events:auto;transform:rotateY(0) scale(1);z-index:2}
+.page.turn-out{transform:rotateY(18deg) scale(.97);opacity:0}
+.masthead{font:700 clamp(30px,7vw,58px) 'Amiri',serif;letter-spacing:1px;border-bottom:4px double var(--ink);padding-bottom:4px;margin:0}
+.meta{display:flex;justify-content:space-between;gap:8px;font-size:11px;color:var(--muted);border-bottom:1px solid var(--line);padding:8px 0}
+.kicker{font-size:12px;letter-spacing:2px;color:var(--muted);font-weight:800;margin-top:24px}
+.headline{font:700 clamp(27px,5.5vw,45px) 'Amiri',serif;line-height:1.25;margin:10px 0}
+.sub{font:700 17px 'Amiri',serif;line-height:1.8}
+.chick{font-size:100px;line-height:1.2;filter:drop-shadow(0 5px 3px #5a452533);margin:12px auto}
+.caption{font-size:11px;color:var(--muted);border-bottom:3px double var(--ink);padding-bottom:15px}
+.columns{columns:2;column-gap:28px;text-align:justify;font:16px/2 'Amiri',serif;margin-top:18px}
+.columns p{margin:0 0 12px;break-inside:avoid}
+.section-title{font:700 29px 'Amiri',serif;border-bottom:2px solid var(--ink);padding-bottom:8px;margin:0 0 14px}
+.quote{font:700 22px/1.9 'Amiri',serif;text-align:center;margin:25px auto;max-width:580px}
+.card{border:1px solid var(--line);padding:15px;margin:12px 0;background:#fff8e51c}
+.label{font-size:11px;color:var(--muted);font-weight:800;letter-spacing:1px}
+.bigletter{font:18px/2.1 'Amiri',serif;text-align:justify}
+.byline{border-top:3px double var(--ink);margin-top:25px;padding-top:12px;text-align:left;font:700 16px 'Amiri',serif}
+.controls{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:18px;color:#f3e7d1}
+button{border:1px solid #d9c8a8;background:#efe3cb;color:#29231b;padding:10px 20px;font:700 14px 'Cairo',sans-serif;cursor:pointer}
+button:disabled{opacity:.35;cursor:not-allowed}
+#counter{font-size:13px;min-width:70px}
+.hint{color:#cfc0a4;font-size:11px;margin-top:10px}
+@media(max-width:600px){body{padding:12px}.book{min-height:650px}.page{padding:22px 18px}.columns{columns:1}.chick{font-size:82px}.meta{font-size:9px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <small>10 NOVEMBER · SPECIAL BIRTHDAY EDITION</small>
+    <h1>THE ISLAM TIMES</h1>
+    <p>عدد استثنائي… كُتب بمحبة، وطُبع لذكرى يومك</p>
+  </header>
+  <main class="book-area">
+    <div class="book" id="book">
+      <section class="page active">
+        <h2 class="masthead">THE ISLAM TIMES</h2>
+        <div class="meta"><span>العدد الخاص بعيد الميلاد</span><span>10 نوفمبر</span><span>نسخة خاصة</span></div>
+        <div class="kicker">خبر عاجل · حدث يستحق الصفحة الأولى</div>
+        <div class="chick">🐥</div>
+        <h2 class="headline">في مثل هذا اليوم…<br>وُلد شخص له مكانة خاصة</h2>
+        <p class="sub">إسلام، سندٌ وداعمٌ وحنون… وصاحب لقب الكتكوت الرسمي في هذه الجريدة.</p>
+        <p class="caption">صورة الغلاف: الكتكوت الذي يحمل حكاية لا يعرف تفاصيلها إلا صاحباها.</p>
+        <div class="columns"><p>تتقدم هيئة تحرير <b>THE ISLAM TIMES</b> بأطيب التهاني إلى إسلام، بمناسبة يوم ميلاده. وبهذه المناسبة، صدر هذا العدد الاستثنائي ليحتفي بإنسان ترك أثراً جميلاً، وبحكاية مرّت بأيام سهلة وأخرى صعبة، لكنها تستحق أن تُروى.</p><p>وتؤكد مصادرنا أن صاحب المناسبة يتمتع بصفات نادرة: قلب حنون، حضور داعم، وقدرة عجيبة على أن يكون «كتكوتاً» حتى وهو يحاول أن يبدو جاداً.</p></div>
+        <div class="byline">رئيسة التحرير: أسماء</div>
+      </section>
+      <section class="page">
+        <div class="meta"><span>ملف العدد</span><span>الشخصية تحت المجهر</span><span>٢ / ٦</span></div>
+        <h2 class="section-title">من هو إسلام؟</h2>
+        <div class="quote">«السند ليس مجرد كلمة… أحياناً يكون شخصاً يعرف كيف يطمئن قلبك دون ضجيج.»</div>
+        <div class="card"><div class="label">الصفة الأولى</div><h3 class="headline">سندي</h3><p class="sub">الشخص الذي أجد في وجوده معنى الدعم، والذي أتمنى له دائماً أن يجد من الحياة سنداً يليق بقلبه.</p></div>
+        <div class="card"><div class="label">الصفة الثانية</div><h3 class="headline">الداعم</h3><p class="sub">الذي يشجع، ويساند، ويجعل الأيام الثقيلة أهون حين نتذكر أننا لسنا وحدنا.</p></div>
+        <div class="card"><div class="label">الصفة الثالثة</div><h3 class="headline">الحنون</h3><p class="sub">صاحب القلب الذي أتمنى أن تبقى فيه الطمأنينة، وأن لا تنقصه الأيام من لطفه.</p></div>
+        <p class="columns">أما عن لقب «كتكوتي»، فقد أكدت مصادر مقربة من رئيسة التحرير أنه لقب محميّ بحقوق المشاعر، ولا يحق لأي جهة صحفية استخدامه دون إذن صاحبة الامتياز. 🐥</p>
+      </section>
+      <section class="page">
+        <div class="meta"><span>أخبار خفيفة</span><span>قسم الابتسامة</span><span>٣ / ٦</span></div>
+        <h2 class="section-title">آخر الأخبار من عالم إسلام</h2>
+        <div class="card"><div class="label">عاجل</div><h3 class="headline">الكتكوت يواصل احتلال مكانة خاصة</h3><p class="sub">أكدت مصادر موثوقة أن لقب «كتكوتي» سيبقى سارياً حتى إشعار آخر، مع إمكانية التجديد مدى الحياة.</p></div>
+        <div class="card"><div class="label">تقرير خاص</div><h3 class="headline">رصد ابتسامة قد تغيّر مزاج يوم كامل</h3><p class="sub">التفاصيل لا تزال قيد التحقيق، لكن رئيسة التحرير تصرّ على أن بعض الأشخاص لديهم موهبة غريبة في تحسين اليوم بمجرد وجودهم.</p></div>
+        <div class="card"><div class="label">تنبيه رسمي</div><h3 class="headline">يُمنع على صاحب العيد أن ينسى قيمته</h3><p class="sub">يرجى من إسلام أن يتذكر أنه يستحق الفرح والراحة والنجاح، ليس في عيد ميلاده فقط، بل في كل يوم.</p></div>
+        <div class="chick">🐥📰</div>
+      </section>
+      <section class="page">
+        <div class="meta"><span>من أرشيف الحكاية</span><span>صفحة الذكريات</span><span>٤ / ٦</span></div>
+        <h2 class="section-title">حكاية لم تكن دائماً سهلة</h2>
+        <p class="bigletter">ليست كل الحكايات مليئة بالأيام الهادئة. أحياناً نختلف، وأحياناً لا نفهم بعضنا كما يجب، وقد تأخذنا المشاعر إلى الصمت أو العناد. مررنا بلحظات لم تكن سهلة، وكانت هناك أمور أوجعتنا وتمنّينا لو عرفنا كيف نتجاوزها من دون أن نتعب.</p>
+        <p class="bigletter">لكن وسط كل ذلك، بقيت هناك أشياء جميلة لا أريد إنكارها: لحظات ضحكنا فيها، كلمات طيّبة، اهتمام، وذكريات صارت جزءاً من حكايتنا. وما تجاوزناه علّمنا أن العلاقة لا تحتاج إلى الكمال، بل إلى الصدق والاحترام والقدرة على الإصغاء والاعتذار والتغيير.</p>
+        <div class="quote">«أتمنى أن تكون أيامنا القادمة أهدأ، وأن نتعامل مع قلوب بعضنا بلطف أكبر.»</div>
+        <p class="caption">ملاحظة من هيئة التحرير: هذه الصفحة لا تبحث عن المخطئ؛ إنها تحتفي بما تعلمناه، وتتمنى لنا الأفضل.</p>
+      </section>
+      <section class="page">
+        <div class="meta"><span>الافتتاحية</span><span>رسالة من رئيسة التحرير</span><span>٥ / ٦</span></div>
+        <h2 class="section-title">إلى إسلام… في يوم ميلاده</h2>
+        <div class="bigletter">
+          <p>كل عام وأنت بخير يا إسلام. في يوم ميلادك، حبيت نكتبلك كلاماً يبقى عندك، ويذكّرك أن وجودك كان له معنى جميل في حياتي.</p>
+          <p>أنت بالنسبة لي أكثر من مجرد شخص عابر؛ أنت إنسان شفت فيه السند والدعم والحنان، وإنسان عنده مكانة ما تتبدلش بسهولة. مهما كانت الأيام التي مررنا بها، ومهما اختلفنا أو تعبنا، ما نقدرش ننكر اللحظات الحلوة ولا الأثر اللي خليته في قلبي.</p>
+          <p>يمكن ما كانتش حكايتنا مثالية، ويمكن مرات ما عرفناش كيفاش نحافظوا على هدوئها، لكن نتمنى أن كل صعوبة مرّت علينا تكون علمتنا كيف نكونوا أحنّ، أوضح، وأكثر تفهّماً لبعضنا.</p>
+          <p>في عامك الجديد، نتمنالك فرحة ما يعكرها حتى شيء، ونجاح يليق بتعبك، وراحة تسكن قلبك، وأياماً تعوّضك عن كل لحظة صعبة. ربي يفتحلك أبواب الخير ويحققلك الأمنيات اللي تخبيها في قلبك.</p>
+          <p>وإذا كان عندي أمنية صغيرة نزيدها لهاذ النهار، فهي أنك تبقى بخير، وتلقى دائماً أسباباً تضحك من قلبك. عيد ميلاد سعيد يا كتكوت. ❤️</p>
+        </div>
+        <div class="byline">بكل المحبة،<br>أسماء</div>
+      </section>
+      <section class="page">
+        <div class="meta"><span>الصفحة الأخيرة</span><span>إلى عدد قادم</span><span>٦ / ٦</span></div>
+        <div class="chick" style="font-size:120px;margin-top:30px">🐥</div>
+        <h2 class="headline">وهكذا ينتهي هذا العدد…</h2>
+        <p class="quote">لكن تمنياتنا لك بالسعادة لا تنتهي بانتهاء الصفحات.</p>
+        <div class="card">
+          <h3 class="section-title" style="font-size:25px">إعلان من رئيسة التحرير</h3>
+          <p class="bigletter" style="text-align:center">إلى صاحب هذا العدد: لا تنسَ أن تحتفل بنفسك، وأن تفتخر بكل خطوة قطعتها. أتمنى أن تحمل لك سنتك الجديدة أخباراً جميلة، وأن تكون فخوراً بالشخص الذي أصبحت عليه.</p>
+        </div>
+        <p class="sub" style="text-align:center;margin-top:28px">THE ISLAM TIMES · صُنعت هذه النسخة خصيصاً لك</p>
+        <div class="byline">رئيسة التحرير: أسماء<br>10 نوفمبر — بكل المحبة 🐥</div>
+      </section>
+    </div>
+  </main>
+  <nav class="controls" aria-label="تقليب صفحات الجريدة">
+    <button id="prev" disabled>→ الصفحة السابقة</button>
+    <span id="counter">1 / 6</span>
+    <button id="next">الصفحة التالية ←</button>
+  </nav>
+  <div class="hint">اضغطي على «الصفحة التالية» لتقلّبي صفحات العدد الخاص بإسلام</div>
+</div>
+<script>
+const pages=[...document.querySelectorAll('.page')];
+let current=0;
+const prev=document.getElementById('prev'), next=document.getElementById('next'), counter=document.getElementById('counter');
+function show(n){
+  pages[current].classList.remove('active');
+  pages[current].classList.add('turn-out');
+  const old=current;
+  current=Math.max(0,Math.min(pages.length-1,n));
+  setTimeout(()=>pages[old].classList.remove('turn-out'),420);
+  pages.forEach((p,i)=>p.classList.toggle('active',i===current));
+  prev.disabled=current===0; next.disabled=current===pages.length-1;
+  counter.textContent=(current+1)+' / '+pages.length;
+}
+prev.addEventListener('click',()=>show(current-1));
+next.addEventListener('click',()=>show(current+1));
+document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')show(current+1);if(e.key==='ArrowRight')show(current-1)});
+</script>
+</body>
+</html>
